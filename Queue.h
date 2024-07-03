@@ -38,7 +38,7 @@ int Queue::dequeue(){
      delete t;
      return value;
   }
-  cout<<"Empty queue";
+  cout<<"Empty queue"<<endl;
   return -1;
 }
 
