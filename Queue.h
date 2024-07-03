@@ -50,6 +50,7 @@ Queue::Queue(){
     
 }
 Queue::~Queue(){
+  cout << "Clearing queue"<<endl;
     while(headPtr!=NULL){
         dequeue();
     }
